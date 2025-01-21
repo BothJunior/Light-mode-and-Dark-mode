@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #131210;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.bx-sun {
+    color: white;
+    display: none;
+}
